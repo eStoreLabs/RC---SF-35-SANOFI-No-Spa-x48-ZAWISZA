@@ -14,7 +14,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   font-weight: 400;
   line-height: 1.2;
   max-width: 992px;
-  min-width: 320px;
+  /* min-width: 320px; */
   margin: 0 auto;
   padding: 0;
   color: #000;
@@ -37,7 +37,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   line-height: inherit;
   color: #fff;
   font-family: "MontserratBold", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   text-shadow: 0 0 5px #52338c;
   padding-left: 27%;
@@ -292,7 +292,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  width: 99px;
+  width: 77px;
 }
 
 #es-sanofi.es-sanofi .es-reasons__content {
@@ -374,7 +374,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   line-height: inherit;
   color: #000;
   font-family: "MontserratBold", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   position: absolute;
   bottom: 33%;
   left: 11%;
@@ -571,8 +571,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   padding: 0;
   line-height: inherit;
   color: #52338c;
-  font-family: inherit;
-  font-weight: 700;
+  font-family: "MontserratBold", sans-serif;
   font-size: 13px;
   text-align: center;
   white-space: nowrap;
@@ -769,6 +768,10 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   margin: 0 auto;
 }
 
+#es-sanofi.es-sanofi .es-wrapper {
+  padding: 0 16px;
+}
+
 @media (min-width: 404px) {
   #es-sanofi.es-sanofi .es-cross__title {
     max-width: 404px;
@@ -791,16 +794,16 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
     left: 11%;
   }
   #es-sanofi.es-sanofi .es-benefits__pic {
-    height: 150px;
+    height: 170px;
   }
   #es-sanofi.es-sanofi .es-benefits__single {
-    width: 150px;
+    width: 170px;
   }
   #es-sanofi.es-sanofi .es-reasons__pic {
-    height: 150px;
+    height: 170px;
   }
   #es-sanofi.es-sanofi .es-reasons__single {
-    width: 150px;
+    width: 170px;
   }
 }
 
@@ -923,9 +926,6 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
     font-size: 20px;
     width: 150px;
   }
-  #es-sanofi.es-sanofi .es-cross__txt {
-    font-size: 16px;
-  }
 }
 
 @media (min-width: 1001px) {
@@ -1047,6 +1047,9 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   width: 47%;
 }
 #es-sanofi.es-sanofi .es-cross__signature {
+  font-size: 16px;
+}
+#es-sanofi.es-sanofi .es-cross__txt {
   font-size: 16px;
 }
 #es-sanofi.es-sanofi .es-footer__claims {
