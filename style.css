@@ -93,14 +93,14 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
 #es-sanofi.es-sanofi .es-benefits__pic {
   background-color: #52338c;
   border-radius: 15px;
-  height: 130px;
+  aspect-ratio: 1/1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #es-sanofi.es-sanofi .es-benefits__single {
-  width: 130px;
+  width: 46%;
 }
 
 #es-sanofi.es-sanofi .es-benefits__txt {
@@ -307,14 +307,14 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
 #es-sanofi.es-sanofi .es-reasons__pic {
   background-color: #6a55a5;
   border-radius: 15px;
-  height: 130px;
+  aspect-ratio: 1/1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #es-sanofi.es-sanofi .es-reasons__single {
-  width: 130px;
+  width: 46%;
 }
 
 #es-sanofi.es-sanofi .es-reasons__txt {
