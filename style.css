@@ -376,7 +376,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   font-family: "MontserratBold", sans-serif;
   font-size: 14px;
   position: absolute;
-  bottom: 33%;
+  top: 40%;
   left: 11%;
   opacity: 0;
   transition: all 1s ease-in;
@@ -790,8 +790,6 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   }
   #es-sanofi.es-sanofi .es-effect__name {
     font-size: 20px;
-    bottom: 36%;
-    left: 11%;
   }
   #es-sanofi.es-sanofi .es-benefits__pic {
     height: 170px;
@@ -873,8 +871,8 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   }
   #es-sanofi.es-sanofi .es-effect__name {
     font-size: 32px;
-    bottom: 38%;
     left: 24%;
+    top: 37%;
   }
   #es-sanofi.es-sanofi .es-package__title {
     font-size: 32px;
@@ -986,7 +984,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   padding-right: 325px;
 }
 #es-sanofi.es-sanofi .es-treatment__txt--2::before {
-  content: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/dot.webp);
+  content: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/dot.png);
   position: absolute;
   top: 18px;
   left: 18px;
