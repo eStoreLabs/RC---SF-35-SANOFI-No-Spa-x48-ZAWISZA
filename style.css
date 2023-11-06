@@ -7,6 +7,10 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
 font-family: "MontserratBold";
 src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts/Montserrat-Bold.ttf) format("truetype");
 }
+@font-face {
+  font-family: "CarnasBlack";
+  src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts/Carnas-Black.otf) format("opentype");
+}
 
 #es-sanofi.es-sanofi {
   font-family: "MontserratRegular", sans-serif;
@@ -229,8 +233,10 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   position: absolute;
   top: 5px;
   left: 16px;
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
+  -webkit-animation: es-pulse-2 2s infinite;
+        animation: es-pulse-2 2s infinite;
 }
 
 #es-sanofi.es-sanofi .es-treatment__txt--span {
@@ -254,6 +260,17 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   font-size: 14px;
   text-align: left;
   padding-left: 48px;
+}
+
+#es-sanofi.es-sanofi .es-treatment__subtitle::before {
+  content: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/img/dot.png);
+  position: absolute;
+  top: 19px;
+  left: 15px;
+  width: 26px;
+  height: 26px;
+  -webkit-animation: es-pulse-2 2s infinite;
+        animation: es-pulse-2 2s infinite;
 }
 
 #es-sanofi.es-sanofi .es-treatment__img {
@@ -386,14 +403,15 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   padding: 0;
   line-height: inherit;
   color: #000;
-  font-family: "MontserratBold", sans-serif;
+  font-family: "CarnasBlack", sans-serif;
   font-size: 14px;
   position: absolute;
-  top: 40%;
-  left: 11%;
+  top: 41%;
+  right: 27%;
+  letter-spacing: 1px;
   opacity: 0;
   transition: all 1s ease-in;
-  transition-delay: 1000ms;
+  transition-delay: 1500ms;
 }
 
 #es-sanofi.es-sanofi .es-effect__nameAppear {
@@ -789,6 +807,10 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   #es-sanofi.es-sanofi .es-cross__title {
     max-width: 404px;
   }
+  #es-sanofi.es-sanofi .es-effect__name {
+    font-size: 20px;
+    right: 30%;
+  }
 }
 
 @media (min-width: 505px) {
@@ -800,9 +822,6 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   }
   #es-sanofi.es-sanofi .es-kv__img--packshot {
     margin-top: 90px;
-  }
-  #es-sanofi.es-sanofi .es-effect__name {
-    font-size: 20px;
   }
   #es-sanofi.es-sanofi .es-benefits__pic {
     height: 170px;
@@ -884,8 +903,8 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   }
   #es-sanofi.es-sanofi .es-effect__name {
     font-size: 32px;
+    right: 33%;
     top: 37%;
-    left: 24%;
   }
   #es-sanofi.es-sanofi .es-package__title {
     font-size: 32px;
@@ -1002,6 +1021,9 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   text-align: left;
   font-size: 20px;
 }
+#es-sanofi.es-sanofi .es-treatment__subtitle::before {
+  top: 17px;
+}
 #es-sanofi.es-sanofi .es-treatment__img--desktop {
   display: block;
   position: absolute;
@@ -1015,7 +1037,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   display: none;
 }
 #es-sanofi.es-sanofi .es-treatment__img--packshot {
-  top: 410px;
+  top: 390px;
   right: 100px;
   z-index: 10;
 }
@@ -1225,5 +1247,75 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   }
   to {
     transform: scale(1);
+  }
+}
+
+@-webkit-keyframes es-pulse-3 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(89, 25, 129);
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 26, 67, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 206, 67, 0);
+    border-radius: 50%;
+  }
+}
+@keyframes es-pulse-3 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(89, 25, 129);
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 26, 67, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 206, 67, 0);
+    border-radius: 50%;
+  }
+}
+
+@-webkit-keyframes es-pulse-4 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 26, 67, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 206, 67, 0);
+    border-radius: 50%;
+  }
+}
+@keyframes es-pulse-4 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 26, 67, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 206, 67, 0);
+    border-radius: 50%;
   }
 }
