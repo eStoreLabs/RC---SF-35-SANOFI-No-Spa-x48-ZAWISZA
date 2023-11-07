@@ -653,6 +653,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   justify-content: flex-end;
   align-items: center;
   flex-flow: column;
+  width: 50%;
 }
 
 #es-sanofi.es-sanofi .es-cross__single--1 {
