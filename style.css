@@ -158,8 +158,13 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   font-size: 22px;
   text-transform: uppercase;
   text-align: center;
-  max-width: 60%;
   margin-inline: auto;
+}
+
+@media (max-width: 360px) {
+  #es-sanofi.es-sanofi .es-package__title {
+    font-size: 20px;
+  }
 }
 
 #es-sanofi.es-sanofi .es-package__footer {
@@ -404,7 +409,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   line-height: inherit;
   color: #000;
   font-family: "CarnasBlack", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   position: absolute;
   top: 41%;
   right: 27%;
@@ -577,7 +582,7 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   text-transform: uppercase;
   text-align: center;
   margin-inline: auto;
-  max-width: 300px;
+  max-width: 200px;
 }
 
 #es-sanofi.es-sanofi .es-cross__txt {
@@ -778,6 +783,15 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   max-width: 165px;
 }
 
+@media (max-width: 420px) {
+  #es-sanofi.es-sanofi .es-footer__number {
+    font-size: 11px;
+  }
+  #es-sanofi.es-sanofi .es-footer__logo {
+    max-width: 120px;
+  }
+}
+
 #es-sanofi.es-sanofi .es-footer__numbers {
   display: flex;
   justify-content: space-between;
@@ -804,13 +818,19 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   padding: 0 16px;
 }
 
-@media (min-width: 404px) {
+@media (min-width: 350px) {
   #es-sanofi.es-sanofi .es-cross__title {
-    max-width: 404px;
+    max-width: 320px;
   }
   #es-sanofi.es-sanofi .es-effect__name {
-    font-size: 20px;
+    font-size: 14px;
     right: 30%;
+  }
+}
+
+@media (min-width: 404px) {
+  #es-sanofi.es-sanofi .es-effect__name {
+    font-size: 16px;
   }
 }
 
@@ -909,7 +929,6 @@ src: url(https://estorelabs.github.io/RC---SF-35-SANOFI-No-Spa-x48-ZAWISZA/fonts
   }
   #es-sanofi.es-sanofi .es-package__title {
     font-size: 32px;
-    max-width: 80%;
   }
   #es-sanofi.es-sanofi .es-package__footer {
     font-size: 24px;
